@@ -7,7 +7,7 @@ function adjustContentHeight() {
     const content = document.getElementById('content');
     const newHeight = windowHeight - (headerHeight + footerHeight);
     console.log(headerHeight)
-    content.style.height = newHeight + 'px';
+    content.style.height = (newHeight - 5) + 'px';
     content.style.width = (newHeight * 0.75) + 'px';
 }
 
